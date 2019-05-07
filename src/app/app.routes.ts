@@ -2,7 +2,7 @@
 import { Routes } from "@angular/router";
 import { WelcomeComponent } from './welcome.component';
 import { EditMenuComponent } from './editmenu.component';
-import { RestaurantLoginComponent } from 'src/resturant/restaurantLogin.component';
+import { RestaurantLoginComponent } from 'src/restaurant/restaurantLogin.component';
 
 export const appRoutes: Routes = [
     {path: "editmenu", component: EditMenuComponent},
